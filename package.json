@@ -1,0 +1,28 @@
+{
+  "name": "@centine/sdk",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "description": "The official TypeScript library for the Centine API",
+  "repository": "https://github.com/centine-dev/centine-sdk-node",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Centine <hello@centine.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}
